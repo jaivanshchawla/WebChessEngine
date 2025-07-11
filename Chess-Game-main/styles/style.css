@@ -1,0 +1,51 @@
+*{
+    background-color: #302e2b;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+
+.squarerow{
+    display: flex;
+}
+
+.white{
+    background-color: #eeeed2;
+}
+
+.black{
+    background-color: #769656;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+}
+
+.piece{
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.highlight{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.highlightyellow{
+    background: #f7f769 ;
+}
+
+.capturecolor{
+    background-color: #ee4b2b;
+}
